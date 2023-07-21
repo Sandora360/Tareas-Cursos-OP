@@ -1,0 +1,21 @@
+div {
+    padding:15px;
+}
+
+button:hover::before {
+    content: "";
+}
+
+button::before {
+    content: "Pasar por encima";
+    background-color: transparent;
+}
+
+button:hover::after {
+content: "¡Hecho!";
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
